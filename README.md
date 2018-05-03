@@ -37,30 +37,49 @@ A twosided marketplace for second hand PC parts.
 => @Evernote
 
 ## Workflow diagram
-Image
-![Image of work flow] (/work-flow.png)
+Exelim's workflow:
 
-{COMPANY}'s workflow was imaged to be as shown below:
-
+<img src="readme_resources/work-flow.png">
 
 ## Style guide
-The style guide of {COMPANY} was chosen to reflect a theme of technology.
+The style guide of Exelim was chosen to reflect a theme of technology.
 
 The following colours felt best to represent such a theme.
+
+<img src="readme_resources/style-guide-colours.png">
 
 The font family chosen were:
 * Headers - 
 * Normal text - 
 
 {HEADER TEXT} justification
-
 {NORMAL TEXT} justification
 
 ## Wireframes
 Wireframes for the most important sections of the website were created. 
+### Home page
+<img src="readme_resources/wireframe-home.png">
+
+### Listing page
+<img src="readme_resources/wireframe-listing.png">
+
+### Sell page
+<img src="readme_resources/wireframe-sell.png">
+
+### Sign Up page
+<img src="readme_resources/wireframe-sign-up.png">
+
+### Profile page
+<img src="readme_resources/wireframe-profile.png">
+
+### History page
+<img src="readme_resources/wireframe-history.png">
 
 ## ERD
+The ERD is as follows:
+<img src="readme_resources/erd.png">
 
+Please note that the user_id is referring to the seller's ID (i.e. not buyer).
 
 ## Website
 
