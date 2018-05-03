@@ -1,5 +1,7 @@
 class ListingsController < ApplicationController
   before_action :set_listing, only: [:show, :edit, :update, :destroy]
+  # Devise
+  before_action :authenticate_user!
 
   # GET /listings
   # GET /listings.json
