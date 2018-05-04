@@ -52,3 +52,5 @@ gem 'bootstrap', '~> 4.1.1'
 gem 'jquery-rails'
 # Figaro
 gem 'figaro'
+# Carrierwave
+gem 'carrierwave'#, '~> 1.0'
