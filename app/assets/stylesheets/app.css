@@ -1,3 +1,62 @@
 .test {
     color: red;
 }
+
+
+
+
+/** LISTING **/
+
+/* Index page */
+.listings-section {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.listings-title {
+    font-size: 1.5rem;
+}
+
+.listings-price {
+    font-size: 1.25rem;
+}
+
+
+/* Show page */
+.listing-title {
+    font-size: 2rem;
+}
+
+.listing-category {
+    font-size: 1rem;
+}
+
+.listing-description {
+    font-size: 1rem;
+}
+
+.listing-details {
+    margin-top: 1rem;
+}
+
+.seller-container {
+    border: 1px black solid;
+    text-align: center;
+    padding: 2rem;
+}
+
+.seller-container button {
+    margin-top: 6px;
+}
+
+
+/** CATEGORY **/
+.category-section {
+    text-align: center;
+}
+
+.category-images {
+    height: auto;
+    width: 90%;
+    border-radius: 12px;
+}

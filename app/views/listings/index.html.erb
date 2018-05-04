@@ -4,6 +4,36 @@
 
 <h1>Listings</h1>
 
+<div class="container">
+
+<% @listings.each do |listing| %>
+  
+    <div class="listings-section">
+      <div class="row">
+
+        <div class="col-md-4 col-sm-12">
+          <img src="http://via.placeholder.com/300x150" alt="listing image">
+          <%= listing.image %>
+        </div>
+
+        <div class="col-md-4 col-sm-12">
+          <p class="listings-title"><%= listing.title %></p>
+          <p class="listings-price"><%= listing.price %></p>
+        </div>
+
+        <div class="col-md-4 col-sm-12">
+          <button type="button" class="btn btn-outline-primary"><%= link_to 'Show', listing %></button>
+          <button type="button" class="btn btn-outline-primary">Add to cart</button>
+        </div>
+      </div>
+    </div>
+
+  
+<% end %>
+
+</div>
+
+
   <table>
     <thead>
       <tr>
