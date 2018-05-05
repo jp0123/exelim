@@ -11,7 +11,7 @@
 
       <div class="col-md-4 col-sm-12">
         <p class="listing-title"><%= @listing.title %></p>
-        <p class="listing-category">{CATEGORY}</p>
+        <p class="listing-category"><%= @listing.category %></p>
         <%= link_to 'Back', listings_path %>      
         <%= link_to 'Edit', edit_listing_path(@listing) %>
         <%= link_to 'Destroy', @listing, method: :delete, data: { confirm: 'Are you sure?' } %>

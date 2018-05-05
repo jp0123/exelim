@@ -27,6 +27,11 @@
   </div>    
   
   <div class="field">
+    <%= form.label :category %>
+    <%= form.select(:category, [['Graphics card', 'Graphics card'], ['CPU', 'CPU']]) %>
+  </div>    
+  
+  <div class="field">
     <%= form.file_field :image %>
   </div>
 
