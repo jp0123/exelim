@@ -58,6 +58,8 @@
 
 
 /** CATEGORY **/
+
+/* Categories */
 .category-section {
     text-align: center;
 }
@@ -68,5 +70,25 @@
     border-radius: 12px;
 }
 
+.category-button {
+    margin-bottom: 3rem;
+}
 
+/* Category */
+.category-section-lhs {
+    text-align: center;
+}
 
+.category-section-lhs img {
+    width: 300px;
+    height: 300px;
+}
+
+.category-section-rhs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.category-section-title {
+    font-size: 4rem;
+}
