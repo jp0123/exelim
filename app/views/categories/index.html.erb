@@ -3,16 +3,13 @@
 <h1>Categories</h1>
 
 <div class="row">
-<% @categories.each do |category| %>
-      <div class="col-md-4 col-sm-12 category-section">
-        <%= link_to(image_tag("http://via.placeholder.com/250x250"), category) %>
-        <p class="category-title"><%= category.title %></p>
-      </div>
-<% end %>
-
+  <% @categories.each do |category| %>
+        <div class="col-md-4 col-sm-12 category-section">
+            <img src="<%= category.image %>" alt="category image">
+          <p class="category-title"><%= category.title %></p>
+        </div>
+  <% end %>
 </div>
-
-
 
 
 <table>

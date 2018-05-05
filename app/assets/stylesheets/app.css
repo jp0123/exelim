@@ -2,9 +2,6 @@
     color: red;
 }
 
-
-
-
 /** LISTING **/
 
 /* Index page */
@@ -21,24 +18,14 @@
     font-size: 1.25rem;
 }
 
-.listings-image {
-    width: 250px;
-    height: 250px;
-}
-
-.listings-image img {
-    width: 90%;
-    height: auto;
-}
-
 /* Show page */
 
-.listing-image {
+.listing-image-section {
     width: 250px;
     height: 250px;
 }
 
-.listing-image img {
+.listing-image-section img {
     width: 90%;
     height: auto;
 }
@@ -81,6 +68,5 @@
     border-radius: 12px;
 }
 
-.category-title {
-    font-size: 1.5rem;
-}
+
+
