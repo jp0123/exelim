@@ -14,3 +14,99 @@
 
  // Custom bootstrap variables must be set or imported *before* bootstrap.
 @import "bootstrap";
+
+.test {
+    color: red;
+}
+
+/** LISTING **/
+
+/* Index page */
+.listings-section {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.listings-title {
+    font-size: 1.5rem;
+}
+
+.listings-price {
+    font-size: 1.25rem;
+}
+
+/* Show page */
+
+.listing-image-section {
+    width: 250px;
+    height: 250px;
+}
+
+.listing-image-section img {
+    width: 90%;
+    height: auto;
+}
+
+.listing-title {
+    font-size: 2rem;
+}
+
+.listing-category {
+    font-size: 1rem;
+}
+
+.listing-description {
+    font-size: 1rem;
+}
+
+.listing-details {
+    margin-top: 1rem;
+}
+
+.seller-container {
+    border: 1px black solid;
+    text-align: center;
+    padding: 2rem;
+}
+
+.seller-container button {
+    margin-top: 6px;
+}
+
+
+/** CATEGORY **/
+
+/* Categories */
+.category-section {
+    text-align: center;
+}
+
+.category-section img {
+    height: auto;
+    width: 80%;
+    border-radius: 12px;
+}
+
+.category-button {
+    margin-bottom: 3rem;
+}
+
+/* Category */
+
+.category-section-lhs {
+    text-align: center;
+}
+
+.category-section-lhs img {
+    width: 300px;
+    height: 300px;
+}
+
+.category-section-rhs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.category-section-title {
+    font-size: 4rem;
+}
