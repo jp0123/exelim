@@ -2,17 +2,19 @@
 
 ## Problem and Solution
 ### Problem
+Exelim is built to solve two problems. 
+#### Problem 1: Buying/selling second hand PC parts
+The act of buying and selling second hand PC parts is a difficult process. Current solutions are ineffective and inefficient. A dedicated and robust platform is required.
 
-#### Problem 1
 Problems when buying second hand PC parts:
 1. Quality Assurance - buying good or at least of acceptable quality parts.
-2. Access - No central, dedicated, or trusted platform
-3. Trust - Buyer and seller both having each others best interests in mind too. Difficulty establishing trust between parties.
-    * Accountability - If something goes wrong, it can become messy.
+2. Access - No central, dedicated, and trusted platform.
+3. Trust - Difficulty establishing trust between parties. Buyer and seller both having each others best interests in mind too. 
+4. Accountability - Should a dispute or error within a transaction occur, it is difficult to ensure a fair outcome.
 
 There are good quality second hand parts available but, due to the above issues it is difficult in both selling and buying them. 
 
-#### Problem 2
+#### Problem 2: E-waste
 E-waste is becoming a growing problem. 
 * https://news.un.org/en/story/2017/12/639312-electronic-waste-poses-growing-risk-environment-human-health-un-report-warns
 
@@ -20,18 +22,23 @@ By encouraging and enabling transactions for second hand pc parts, this can help
 
 ### Solution
 
-A twosided marketplace for second hand PC parts. 
+A two-sided marketplace for second hand PC parts. 
 1. Quality Assurance
     * Ratings and review system for each seller and buyer
     * Verification of users (e.g. verification icon)
 2. Access
-    * A twosided marketplace that will enable users to buy/sell PC parts 
+    * A twosided marketplace that will enable users to effectively and efficiently buy/sell PC parts 
 3. Trust
-    * Quality Assurance (point 1 - specific to the item)
-    * Protection
-    * Safeguarded processes
+    * Quality assurance
+    * Verified users
+4. Accountability
+    * Quality assurance
+    * Verified users
+    * Safeguarded processes (e.g. a transaction is only fully processed if both parties meet conditions.)
 
 ## User stories
+
+### Preliminary User Stories
 
 ### Detailed User Story 1
 Vistors should be able to browse categories and view item details without having to sign up.
@@ -129,9 +136,16 @@ Exelim's workflow:
 <img src="readme_resources/work-flow.png">
 
 ## Style guide
-The style guide of Exelim was chosen to reflect a theme of technology.
+The design guidelines when building Exelim were to enable an effective, efficient, and enjoyable experience when buying, selling, or browsing for second hand PC parts.
 
-The following colours felt best to represent such a theme.
+For example, when building our website, we wanted to make sure every page was:
+* Clean
+* Simple
+* Intuitive (for our users; more specifically, people who are well versed with technology and PC parts)
+* Enjoyable (for our users; more specifically, everything they need and expect are there)
+* Effectiveness and efficiency (to create the optimal solution for this problem)
+
+This set of colours were chosen to convey a neutral, reliable, and quality message.
 
 <img src="readme_resources/style-guide-colours.png">
 
@@ -139,8 +153,10 @@ The font family chosen were:
 * Headers - Roboto.
 * Normal text - Montserrat.
 
+These fonts were chosen to establish a clean and aesthetic view for users, which also had an element of technology.
+
 ## Wireframes
-Wireframes for the most important sections of the website were created. 
+Here are some low-medium wireframes created for important sections on the website. 
 ### Home page
 <img src="readme_resources/wireframe-home.png">
 
