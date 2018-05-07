@@ -1,1 +1,98 @@
-<h1> Home page </h1>
+<!-- ** - - - - - SECTION 1: HERO - - - - - ** -->
+<div class="hero" id="hero">
+    <div class="hero-content">
+        <h1>Take part</h1>
+        <h2>Buy and sell quality PC parts from trusted people.</h2>
+        <a href="#contact" class="btn btn-primary more-button">Browse</a>
+    </div>
+</div>
+
+<!-- ** - - - - - SECTION 2: CATEGORIES - - - - - ** -->
+<div class="categories" id="categories">
+    <div class="container">
+    <p class="section-title-a">Categories</p>
+        <div class="row">
+            <div class="col-md-4 col-sm-12 category-items">
+                <a href="#">
+                    <img src="http://via.placeholder.com/680x400" alt="Graphics card category">
+                </a>
+                <p class="category-title">Graphics card</p>
+            </div>
+            <div class="col-md-4 col-sm-12 category-items">
+                <a href="#">
+                    <img src="http://via.placeholder.com/680x400" alt="CPU category">
+                </a>
+                <p class="category-title">CPU</p>
+            </div>
+            <div class="col-md-4 col-sm-12 category-items">
+                <a href="#">
+                    <img src="http://via.placeholder.com/680x400" alt=" RAM category">
+                </a>
+                <p class="category-title">RAM</p>
+            </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-sm-12 category-items">
+                <a href="#">
+                    <img src="http://via.placeholder.com/680x400" alt="Graphics card category">
+                </a>
+                <p class="category-title">PC</p>
+            </div>
+            <div class="col-md-4 col-sm-12 category-items">
+                <a href="#">
+                    <img src="http://via.placeholder.com/680x400" alt="CPU category">
+                </a>
+                <p class="category-title">Peripherals</p>
+            </div>
+            <div class="col-md-4 col-sm-12 category-items">
+                <a href="#">
+                    <img src="http://via.placeholder.com/680x400" alt=" RAM category">
+                </a>
+                <p class="category-title">Misc.</p>
+            </div>
+            </div>
+        </div>
+    <div class="row">
+        <div class="container">
+            <div class="see-more">
+                <a href="<%= categories_path %>" class="btn btn-primary">All categories</a>
+            </div>
+        </div>
+    </div>
+    
+    </div>
+</div>
+
+<!-- ** - - - - - SECTION 3: HOW IT WORKS - - - - - ** -->
+
+
+<!-- ** - - - - - SECTION 4: LISTINGS - - - - - ** -->
+
+<div class="listings" id="listings">
+    <div class="container">
+        <p class="section-title-a">TEST</p>
+        <div class="row">
+            <% @listings.limit(4).each do |listing| %>
+                    <div class="col-md-3 col-sm-12">
+                        <a href="<%= listings_path %>">
+                            <img src="<%= listing.image %>" alt="listing image">
+                        </a>
+                        <div class="listing-items">
+                            <p class="listings-title"><%= listing.title %></p>
+                            <p class="listings-category"><%= listing.category %></p>
+                            <p class="listings-price"><%= listing.price %></p>
+                        </div>
+                    </div>
+            <% end %>
+        </div>
+
+        <div class="row">
+        <div class="container">
+            <div class="see-more">
+                <a href="<%= listings_path %>" class="btn btn-primary">All listings</a>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>

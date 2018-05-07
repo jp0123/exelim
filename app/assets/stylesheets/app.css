@@ -1,0 +1,98 @@
+/** CSS SPECIFICALLY FOR HOME PAGE (Views > Pages > home.html.erb) **/
+
+.section-title-a {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.see-more {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/** - - - - - SECTION 1: HERO - - - - - **/
+
+.hero {
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightblue;
+    /* background-image: url("../resources/images/hero_background_image.jpg");  */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+/** - - - - - SECTION 2: CATEGORIES - - - - - **/
+
+.categories {
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    background-color: #fff;
+}
+
+.category-items {
+    text-align: center;
+}
+
+.category-items p {
+    margin: 0;
+}
+
+.categories img {
+    margin: 0.5rem;
+    border-radius: 12px;
+    max-height: 15rem;
+    height: auto;
+    width: 90%;
+}
+
+.category-title {
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+/** - - - - - SECTION 4: LISTINGS - - - - - **/
+
+.listings {
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    background-color: #fff;
+}
+
+.listing-items {
+    text-align: left;
+}
+
+.listing-items p {
+    margin: 0;
+}
+
+.listings img {
+    margin: 0.5rem;
+    border-radius: 12px;
+    max-height: 15rem;
+    height: auto;
+    width: 90%;
+}
+
+.listing-title {
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}

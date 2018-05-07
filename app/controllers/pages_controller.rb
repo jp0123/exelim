@@ -1,6 +1,8 @@
 class PagesController < ApplicationController
 
     def home
+        @listings = Listing.all
+        
     end
 
     def about
@@ -11,6 +13,7 @@ class PagesController < ApplicationController
 
     def dashboard
     end
+
 
 
 
