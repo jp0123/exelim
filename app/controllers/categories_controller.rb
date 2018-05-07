@@ -1,6 +1,7 @@
 class CategoriesController < ApplicationController
   before_action :set_category, only: [:show, :edit, :update, :destroy]
-
+  before_action :authenticate_user!, only: [:new, :edit, :create, :update, :destroy]
+  
   # GET /categories
   # GET /categories.json
   def index
@@ -26,11 +27,17 @@ class CategoriesController < ApplicationController
   # POST /categories.json
   def create
     @category = Category.new(category_params)
+    
+    
+    @current_user_category = current_user  
+
+
 
     respond_to do |format|
       if @category.save
         format.html { redirect_to @category, notice: 'Category was successfully created.' }
         format.json { render :show, status: :created, location: @category }
+        UserNotifierMailer.send_signup_email(@current_user_category).deliver
       else
         format.html { render :new }
         format.json { render json: @category.errors, status: :unprocessable_entity }
