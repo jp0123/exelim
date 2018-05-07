@@ -37,7 +37,7 @@ class ListingsController < ApplicationController
       if @listing.save
         format.html { redirect_to @listing, notice: 'Listing was successfully created.' }
         format.json { render :show, status: :created, location: @listing }
-        UserNotifierMailer.send_listing_email(@listing.user).deliver
+        UserNotifierMailer.send_listing_email(current_user).deliver
       else
         format.html { render :new }
         format.json { render json: @listing.errors, status: :unprocessable_entity }
