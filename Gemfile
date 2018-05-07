@@ -54,3 +54,5 @@ gem 'jquery-rails'
 gem 'figaro'
 # Carrierwave
 gem 'carrierwave'#, '~> 1.0'
+# AWS, Carrierwave
+gem "fog-aws"
