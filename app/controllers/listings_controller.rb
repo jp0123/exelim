@@ -32,12 +32,13 @@ class ListingsController < ApplicationController
 
     @listing = Listing.new(listing_params)
     @listing.user = current_user
+    @current_user_listing = current_user
 
     respond_to do |format|
       if @listing.save
         format.html { redirect_to @listing, notice: 'Listing was successfully created.' }
         format.json { render :show, status: :created, location: @listing }
-        UserNotifierMailer.send_listing_email(current_user).deliver
+        UserNotifierMailer.send_listing_email(@current_user_listing).deliver
       else
         format.html { render :new }
         format.json { render json: @listing.errors, status: :unprocessable_entity }
