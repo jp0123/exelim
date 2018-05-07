@@ -6,7 +6,7 @@ Rails.application.initialize!
 
 # Sendgrid
 ActionMailer::Base.smtp_settings = {
-  :user_name => ENV["SENDGRID_USER_NAME"],
+  :user_name => ENV["SENDGRID_USERNAME"],
   :password => ENV["SENDGRID_PASSWORD"],
   :domain => ENV["SENDGRID_DOMAIN"],
   :address => ENV["SENDGRID_ADDRESS"],
