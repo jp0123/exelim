@@ -56,3 +56,5 @@ gem 'figaro'
 gem 'carrierwave'#, '~> 1.0'
 # AWS, Carrierwave
 gem "fog-aws"
+# Sendgrid
+gem 'sendgrid-ruby'
