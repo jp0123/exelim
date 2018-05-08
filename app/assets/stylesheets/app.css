@@ -16,7 +16,6 @@
 
 /** - - - - - SECTION 1: HERO - - - - - **/
 
-
 .hero {
     height: 60vh;
     width: 100%;
@@ -116,4 +115,45 @@
     margin-bottom: 0.5rem;
     font-size: 1.2rem;
     font-weight: 500;
+}
+
+/** - - - - - SECTION 5: VALUE PROPOSITION - - - - - **/
+.vp-one {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.vp-one-image {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.vp-two {
+    margin-top: 2.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.vp-header-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.vp-header {
+    font-size: 1.2rem;
+    margin: 0;
+    margin-right: 12px;
+}
+
+.vp-body {
+    font-size: 1.1rem;
+    margin-top: 12px;
 }
