@@ -87,21 +87,21 @@
 
 /** - - - - - SECTION 4: LISTINGS - - - - - **/
 
-.listings {
+.home-listings {
     padding-top: 7.5vh;
     padding-bottom: 7.5vh;
     background-color: #fff;
 }
 
-.listing-items {
+.home-listing-items {
     text-align: left;
 }
 
-.listing-items p {
+.home-listing-items p {
     margin: 0;
 }
 
-.listings img {
+.home-listings img {
     margin: 0.5rem;
     border-radius: 12px;
     max-height: 15rem;
@@ -109,12 +109,20 @@
     width: 90%;
 }
 
-.listing-title {
-    text-align: center;
+.home-listings-title {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 500;
+}
+
+.home-listings-category {
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+.home-listings-price {
+    font-size: 1.25rem;
 }
 
 /** - - - - - SECTION 5: VALUE PROPOSITION - - - - - **/

@@ -9,7 +9,7 @@
         </div>
       </div>
 
-      <div class="col-md-4 col-sm-12">
+      <div class="col-md-4 col-sm-12 listing-section">
         <p class="listing-title"><%= @listing.title %></p>
         <p class="listing-category"><%= @listing.category %></p>
         <%= link_to 'Back', listings_path %>      
@@ -17,18 +17,17 @@
         <%= link_to 'Destroy', @listing, method: :delete, data: { confirm: 'Are you sure?' } %>
       </div>
 
-      <div class="col-md-4 col-sm-12">
-        <div class="seller-container">
-          <p>Sold by: {SELLER}</p>
-          <h4><%= @listing.price %></h4>
-          <button type="button" class="btn btn-outline-primary">Message {SELLER}</button>
+      <div class="col-md-4 col-sm-12 seller-container">
+        <div class="seller-box">
+          <h4>AU$ <%= @listing.price %></h4>
+          <button type="button" class="btn btn-outline-primary">Message</button>
           <button type="button" class="btn btn-outline-primary">Add to cart</button>
         </div>
       </div>
     </div>
 
     <div class="listing-details">
-      <p>Description</p>
+      <p class="listing-description-title">Description</p>
       <p class="listing-description"><%= @listing.description %></p>
     </div>
 

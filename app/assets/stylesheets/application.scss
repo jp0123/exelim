@@ -24,7 +24,7 @@
 /* Index page */
 .listings-section {
     margin-top: 1.5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     border-bottom: 1px #ddd solid;
 }
 
@@ -48,9 +48,9 @@
 /* Show page */
 
 .listing-image-section {
-    height: 250px;
-    width: 250px;
-
+    height: auto;
+    width: auto;
+    text-align: center;
 }
 
 .listing-image-section img {
@@ -60,33 +60,53 @@
 
 .listing-title {
     font-size: 2rem;
+    text-align: center;
 }
 
 .listing-category {
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .listing-description {
     font-size: 1rem;
 }
 
+.listing-price {
+    font-size: 1.5rem;
+}
+
 .listing-details {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
+}
+
+.listing-description-title {
+    font-size: 1.5rem;
 }
 
 .seller-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: middle;
+    justify-content: center;
+}
+
+.seller-box {
     border: 1px #ddd solid;
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
+    width: auto;
+}
+
+.seller-box button {
+    margin-top: 6px;
+    width: auto;
 }
 
 .listing-box {
-    display: inline-block;
-    vertical-align: middle;
-    width: auto;
-    height: 75%;
-    padding: 12px;
+    padding: 2rem;
     border: 1px #ddd solid;
+    text-align: center;
+    margin-bottom: 1.5rem;
 }
 
 .listing-box button {
@@ -94,9 +114,7 @@
 }
 
 
-.seller-container button {
-    margin-top: 6px;
-}
+
 
 /** CATEGORY **/
 
