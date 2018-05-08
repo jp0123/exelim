@@ -11,9 +11,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 2rem;
 }
 
 /** - - - - - SECTION 1: HERO - - - - - **/
+
 
 .hero {
     height: 60vh;
@@ -22,7 +24,7 @@
     justify-content: center;
     align-items: center;
     background: lightblue;
-    /* background-image: url("../resources/images/hero_background_image.jpg");  */
+    /* background-image: url("../resources/images/hero_background_image.jpg"); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center; 
@@ -71,6 +73,16 @@
     padding-top: 7.5vh;
     padding-bottom: 7.5vh;
     background: lightcoral;
+}
+
+.how-it-works-title {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+.how-it-works-subtitle {
+    font-size: 1rem;
 }
 
 
