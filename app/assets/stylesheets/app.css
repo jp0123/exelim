@@ -36,8 +36,8 @@
 /** - - - - - SECTION 2: CATEGORIES - - - - - **/
 
 .categories {
-    padding-top: 4vh;
-    padding-bottom: 4vh;
+    padding-top: 7.5vh;
+    padding-bottom: 7.5vh;
     background-color: #fff;
 }
 
@@ -65,11 +65,20 @@
     font-weight: 500;
 }
 
+/** - - - - - SECTION 3: LISTINGS - - - - - **/
+.how-it-works {
+    text-align: center;
+    padding-top: 7.5vh;
+    padding-bottom: 7.5vh;
+    background: lightcoral;
+}
+
+
 /** - - - - - SECTION 4: LISTINGS - - - - - **/
 
 .listings {
-    padding-top: 4vh;
-    padding-bottom: 4vh;
+    padding-top: 7.5vh;
+    padding-bottom: 7.5vh;
     background-color: #fff;
 }
 
