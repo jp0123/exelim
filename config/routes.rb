@@ -2,6 +2,8 @@ Rails.application.routes.draw do
   resources :categories
   devise_for :users
   resources :listings
+
+  resources :pages
   
   get 'pages/home', to: 'pages#home'
   get 'pages/about', to: 'pages#about'
