@@ -73,6 +73,7 @@
 
 .listing-price {
     font-size: 1.5rem;
+    text-align: center;
 }
 
 .listing-details {
@@ -91,10 +92,11 @@
 }
 
 .seller-box {
+    padding: 2rem;
     border: 1px #ddd solid;
     text-align: center;
-    padding: 1rem;
-    width: auto;
+    margin-bottom: 1.5rem;
+    display: block;
 }
 
 .seller-box button {
