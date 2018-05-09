@@ -25,26 +25,26 @@
 <% @listings.each do |listing| %>
     <% if((listing.category.downcase) === (@category.title.downcase)) then %>
       <div class="listings-section">
-        <div class="row">
-
-          <div class="col-md-4 col-sm-12">
-            <div class="listing-image-section">
-              <img src="<%= listing.image %>" alt="listing image">
-            </div>
+      <div class="row justify-content-center">
+        <div class="col-md-3 col-sm-12">
+          <div class="listing-image-section">
+            <img src="<%= listing.image %>" alt="listing image">
           </div>
+        </div>
 
-          <div class="col-md-4 col-sm-12">
-            <p class="listings-title"><%= listing.title %></p>
-            <p class="listings-category"><%= listing.category %></p>
-            <p class="listings-price"><%= listing.price %></p>
-          </div>
+        <div class="col-md-4 col-sm-12">
+          <p class="listings-title"><%= listing.title %></p>
+          <p class="listings-category"><%= listing.category %></p>
+        </div>
 
-          <div class="col-md-4 col-sm-12">
-            <button type="button" class="btn btn-outline-primary"><%= link_to 'Show', listing %></button>
-            <button type="button" class="btn btn-outline-primary">Add to cart</button>
+        <div class="col-md-3 col-sm-12">
+          <div class="listing-box">
+            <p class="listings-price">AU $<%= listing.price %></p>
+            <button type="button" class="btn btn-outline-primary"><%= link_to 'Details', listing %></button>
           </div>
         </div>
       </div>
+    </div>
     <% end %>
 <% end %>
 
