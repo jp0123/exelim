@@ -26,8 +26,6 @@ Please set up accounts with
     * Figaro
     * Sendgrid
 
-
-
 ## Problem and Solution
 ### Problem
 Exelim is built to solve two problems. 
