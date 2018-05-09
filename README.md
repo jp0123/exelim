@@ -2,6 +2,8 @@
 
 ## Overview
 Exelim is a two-sided marketplace to buy and sell second hand PC parts.
+* Website: <a href="https://exelim.herokuapp.com/">Exelim</a>
+* Github: <a href="https://github.com/jp0123">Joseph's Github</a>
 
 ### Setup
 Please keep the following in mind while setting up
@@ -42,7 +44,8 @@ There are good quality second hand parts available but, due to the above issues 
 
 #### Problem 2: E-waste
 E-waste is becoming a growing problem. 
-* https://news.un.org/en/story/2017/12/639312-electronic-waste-poses-growing-risk-environment-human-health-un-report-warns
+
+Here is an <a href="https://news.un.org/en/story/2017/12/639312-electronic-waste-poses-growing-risk-environment-human-health-un-report-warns">article</a> by the United Nations that reports the problem.
 
 By encouraging and enabling transactions for second hand pc parts, this can help reduce the problem.
 
@@ -65,6 +68,8 @@ A two-sided marketplace for second hand PC parts.
 ## User stories
 
 ### Preliminary User Stories
+A snapshot of some of the preliminary user stories for the users of the platform:
+<img src="readme_resources/user_stories.png">
 
 ### Detailed User Story 1
 Vistors should be able to browse categories and view item details without having to sign up.
@@ -208,10 +213,13 @@ The ERD is as follows:
 
 Please note that the user_id is referring to the seller's ID (i.e. not buyer).
 
-## Website
-
-
 ## For the future
+Next key features to implement:
+* Add in the review & rating system
+* Search functionality
+* User profiles
+* Stripe Connect 
+
 Future ideas:
 * Sell prebuilt PCs 
 * Custom PC building service
