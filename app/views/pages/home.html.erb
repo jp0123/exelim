@@ -102,7 +102,7 @@
         <div class="row">
             <% @listings.limit(4).each do |listing| %>
                 <div class="col-md-3 col-sm-12">
-                    <a href="<%= listings_path %>">
+                    <a href="/listings/ <%= listing.id %>">
                         <img src="<%= listing.image %>" alt="listing image">
                     </a>
                     <div class="listing-items">
