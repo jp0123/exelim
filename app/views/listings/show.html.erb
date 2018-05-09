@@ -12,9 +12,14 @@
       <div class="col-md-4 col-sm-12 listing-section">
         <p class="listing-title"><%= @listing.title %></p>
         <p class="listing-category"><%= @listing.category %></p>
-        <%= link_to 'Back', listings_path %>      
-        <%= link_to 'Edit', edit_listing_path(@listing) %>
-        <%= link_to 'Destroy', @listing, method: :delete, data: { confirm: 'Are you sure?' } %>
+
+        <% if((@listing.user) == (current_user))  %>
+   
+          <%= link_to 'Edit', edit_listing_path(@listing) %>
+          <%= link_to 'Destroy', @listing, method: :delete, data: { confirm: 'Are you sure?' } %>
+
+        <% end %>
+
       </div>
 
       <div class="col-md-4 col-sm-12 seller-container">
