@@ -35,10 +35,6 @@
 
 }
 
-.form-button {
-    
-}
-
 .listing-container {
     background-color: #ddd;
     padding: 24px;
@@ -202,4 +198,29 @@
 
 .category-section-title {
     font-size: 4rem;
+}
+
+
+
+
+
+/** - - - - - FOOTER - - - - - **/
+
+.footer {
+    height: 100%;
+    width: 100%;
+    background-color: #333333;
+}
+
+
+.signature-container p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
