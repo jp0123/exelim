@@ -5,10 +5,13 @@ Rails.application.routes.draw do
 
   resources :pages
   
-  get 'pages/home', to: 'pages#home'
-  get 'pages/about', to: 'pages#about'
-  get 'pages/contact', to: 'pages#contact'
-  get 'pages/dashboard', to: 'pages#dashboard'
+  get 'home', to: 'pages#home'
+  get 'profile', to: 'pages#profile'
+  get 'messages', to: 'pages#messages'
+  
+  get 'about', to: 'pages#about'
+  get 'contact', to: 'pages#contact'
+  get 'dashboard', to: 'pages#dashboard'
   get 'users', to: 'pages#dashboard'
 
   root to: 'pages#home'

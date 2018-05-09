@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Exelim</a>
+  <a class="navbar-brand" href="<%= root_path %>">Exelim</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -26,9 +26,9 @@
           Account
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Dashboard</a>
-          <a class="dropdown-item" href="#">Profile</a>
-          <a class="dropdown-item" href="#">Messages</a>
+          <a class="dropdown-item" href="dashboard">Dashboard</a>
+          <a class="dropdown-item" href="profile">Profile</a>
+          <a class="dropdown-item" href="messages">Messages</a>
           <a class="dropdown-item" href="#">
 
           <% if user_signed_in? %>
