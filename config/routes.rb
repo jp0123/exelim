@@ -5,6 +5,8 @@ Rails.application.routes.draw do
 
   resources :pages
   
+  resources :charges
+
   get 'home', to: 'pages#home'
   get 'profile', to: 'pages#profile'
   get 'messages', to: 'pages#messages'
