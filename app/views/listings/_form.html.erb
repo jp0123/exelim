@@ -1,3 +1,6 @@
+<div class="form-container">
+<div class="listing-container col-md-4 col-sm-12">
+
 <%= form_with(model: listing, local: true) do |form| %>
   <% if listing.errors.any? %>
     <div id="error_explanation">
@@ -11,33 +14,40 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= form.label :title %><br>
-    <%= form.text_field :title %>
+  <div class="field list-form-bottom-spacer">
+    <p class="listing-form-title"><%= form.label :title, class: "" %></p>
+    <%= form.text_field :title, class: "form-box" %>
   </div>
 
-  <div class="field">
-    <%= form.label :description %><br>
-    <%= form.text_area :description %>
+  <div class="field list-form-bottom-spacer">
+    <p class="listing-form-title"><%= form.label :description %><br></p>
+    <%= form.text_area :description, class: "form-box" %>
   </div>
 
-  <div class="field">
-    <%= form.label :price %><br>
-    <%= form.number_field :price %>
+  <div class="field list-form-bottom-spacer">
+    <p class="listing-form-title"><%= form.label :price %><br></p>
+    <%= form.number_field :price, class: "form-box" %>
   </div>    
   
-  <div class="field">
-    <%= form.label :category %><br>
-    <%= form.select(:category, [['Graphics card', 'Graphics card'], ['CPU', 'CPU']]) %>
+  <div class="field list-form-bottom-spacer">
+    <p class="listing-form-title"><%= form.label :category %><br></p>
+    <div class="list-form-bottom-spacer">
+      <%= form.select(:category, [['Graphics card', 'Graphics card'], ['CPU', 'CPU']]) %>
+    </div>
   </div>    
   
-  <div class="field">
-    <%= form.label :image %>
+  <div class="field list-form-bottom-spacer">
+    <p class="listing-form-title"><%= form.label :image %></p>
     <%= form.file_field :image %>
   </div>
 
   <div class="actions">
     <br>
     <%= form.submit %>
+
   </div>
 <% end %>
+
+
+</div>
+</div>

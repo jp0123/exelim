@@ -15,11 +15,60 @@
  // Custom bootstrap variables must be set or imported *before* bootstrap.
 @import "bootstrap";
 
-.test {
+.test2 {
     color: red;
 }
 
-/** LISTING **/
+/** - - - - - FORMS - - - - - **/
+
+/* General */
+
+.form-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+    
+}
+
+.form-box {
+    width: 100%
+
+}
+
+.form-button {
+    
+}
+
+.listing-container {
+    background-color: #ddd;
+    padding: 24px;
+    border-radius: 5px;
+}
+
+.form-headers {
+    margin-top: 2rem;
+    font-size: 2rem;
+    
+}
+
+/* Listing form */
+
+.listing-form-title {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+    
+}
+
+.list-form-top-spacer {
+    margin-top: 10px;
+}
+
+.list-form-bottom-spacer {
+    margin-bottom: 10px;
+}
+
+
+/** - - - - - LISTINGS - - - - - **/
 
 /* Index page */
 .listings-section {
@@ -118,7 +167,7 @@
 
 
 
-/** CATEGORY **/
+/** - - - - - CATEGORIES - - - - - **/
 
 /* Categories */
 .category-section {
