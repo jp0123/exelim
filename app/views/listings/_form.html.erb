@@ -32,7 +32,16 @@
   <div class="field list-form-bottom-spacer">
     <p class="listing-form-title"><%= form.label :category %><br></p>
     <div class="list-form-bottom-spacer">
-      <%= form.select(:category, [['Graphics card', 'Graphics card'], ['CPU', 'CPU']]) %>
+      <%= form.select(:category, 
+      [['CPU', 'CPU'], 
+      ['Graphics card', 'Graphics card'], 
+      ['HDD', 'HDD'], 
+      ['Miscellaneous', 'Miscellaneous'] 
+      ['Motherboard', 'Motherboard'], 
+      ['Peripherals', 'Peripherals'], 
+      ['PSU', 'PSU'], 
+      ['RAM', 'RAM'], 
+      ['SSD', 'SSD']]) %>
     </div>
   </div>    
   
