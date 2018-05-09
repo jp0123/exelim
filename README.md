@@ -1,5 +1,33 @@
 # Rails Assignment | Two-sided Marketplace
 
+## Overview
+Exelim is a two-sided marketplace to buy and sell second hand PC parts.
+
+### Setup
+Please keep the following in mind while setting up
+* This app requires Ruby on Rails.
+* Setup Heroku for production
+* Setup Postgresql for development and production
+* Setup your unique ENV variables
+
+### Platforms
+Please set up accounts with
+* AWS
+* Heroku
+* Sendgrid
+
+### Gem notes
+* Remember to "bundle install" after cloning app.
+* Major gems
+    * AWS (s3)
+    * Bootstrap
+    * Carrierwave
+    * Devise
+    * Figaro
+    * Sendgrid
+
+
+
 ## Problem and Solution
 ### Problem
 Exelim is built to solve two problems. 
