@@ -173,11 +173,6 @@ padding-bottom: 6px;
     font-size: 1rem;
 }
 
-.listing-price {
-    font-size: 1.5rem;
-    text-align: center;
-}
-
 .listing-details {
     margin-top: 1.5rem;
 }
@@ -206,19 +201,44 @@ padding-bottom: 6px;
     width: auto;
 }
 
-.listing-box {
-    padding: 2rem;
-    border: 1px #ddd solid;
-    text-align: center;
-    margin-bottom: 1.5rem;
-}
-
 .listing-box button {
     text-align: center;
 }
 
 
+/******** TESTING SELLER-BOX *********/
 
+
+.listing-box-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    border: 1px #ddd solid;
+}
+
+.listing-box {
+    text-align: center;
+    padding: 2rem;
+    margin: 0.5rem;
+    width: 100%;
+}
+/*
+.listing-box-button {
+    text-align: center;
+    width: 100%;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 3px;
+} */
+
+.listing-price {
+    font-size: 1.5rem;
+    text-align: center;
+    align-items: middle;
+}
 
 /** - - - - - CATEGORIES - - - - - **/
 
