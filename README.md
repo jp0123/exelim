@@ -1,22 +1,15 @@
-# Rails Assignment | Two-sided Marketplace
+# Exelim | Two-sided Marketplace
 
 **Table of contents**
-    * [Overview](#Overview)
-        * [Setup](#Setup)
-        * [Platforms](#Platforms)
-        * [Gem notes](#Gem-notes)
-    * [Problem and Solution](#Problem-and-solution)
-        * [Problem](#Problem)
-            * [Problem 1](#Problem-1)
-            * [Problem 2](#Problem-2)
-        * [Solution](#Solution)
-    * [User stories](#User-stories)
-    * [Workflow diagram](#Workflow-diagram)
-    * [Wireframes](#Wireframes)
-    * [Updated wireframes](#UPDATED-wireframes)
-    * [ERD](#ERD)
-    * [For the future](#For-the-future)
-    * [Notes](#Notes)
+* [Overview](#Overview)
+* [Problem and Solution](#Problem-and-solution)
+* [User stories](#User-stories)
+* [Workflow diagram](#Workflow-diagram)
+* [Wireframes](#Wireframes)
+* [Updated wireframes](#UPDATED-wireframes)
+* [ERD](#ERD)
+* [For the future](#For-the-future)
+* [Notes](#Notes)
 
 
 
