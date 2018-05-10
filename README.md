@@ -1,5 +1,25 @@
 # Rails Assignment | Two-sided Marketplace
 
+## Table of contents
+* [Overview](#Overview)
+    * [Setup](#Setup)
+    * [Platforms](#Platforms)
+    * [Gem notes](#Gem-notes)
+* [Problem and Solution](#Problem-and-solution)
+    * [Problem](#Problem)
+        * [Problem 1](#Problem-1)
+        * [Problem 2](#Problem-2)
+    * [Solution](#Solution)
+* [User stories](#User-stories)
+* [Workflow diagram](#Workflow-diagram)
+* [Wireframes](#Wireframes)
+* [Updated wireframes](#UPDATED-wireframes)
+* [ERD](#ERD)
+* [For the future](#For-the-future)
+
+
+
+
 ## Overview
 Exelim is a two-sided marketplace to buy and sell second hand PC parts.
 * Website: <a href="https://exelim.herokuapp.com/">Exelim</a>
@@ -31,7 +51,7 @@ Please set up accounts with
 ## Problem and Solution
 ### Problem
 Exelim is built to solve two problems. 
-#### Problem 1: Buying/selling second hand PC parts
+#### Problem 1
 The act of buying and selling second hand PC parts is a difficult process. Current solutions are ineffective and inefficient. A dedicated and robust platform is required.
 
 Problems when buying second hand PC parts:
@@ -42,7 +62,7 @@ Problems when buying second hand PC parts:
 
 There are good quality second hand parts available but, due to the above issues it is difficult in both selling and buying them. 
 
-#### Problem 2: E-waste
+#### Problem 2
 E-waste is becoming a growing problem. 
 
 Here is an <a href="https://news.un.org/en/story/2017/12/639312-electronic-waste-poses-growing-risk-environment-human-health-un-report-warns">article</a> by the United Nations that reports the problem.
@@ -202,6 +222,18 @@ Here are some low-medium wireframes created for important sections on the websit
 ### History page
 <img src="readme_resources/wireframe-history.png">
 
+## Updated Wireframes
+Here are further iterations on wireframes (note: they are different from how the MVP looks like now).
+
+### Home & Sign Up page
+<img src="readme_resources/wireframe-1.png">
+
+### Listing (show) & Listing (new)
+<img src="readme_resources/wireframe-2.png">
+
+### History
+<img src="readme_resources/wireframe-3.png">
+
 ## ERD
 The ERD is as follows:
 <br><br>
@@ -221,10 +253,3 @@ Future ideas:
 * Custom PC building service
 * Direct to consumer sale (both second hand parts and new)
 * Services related to IT (e.g. support)
-
-## Resources
-* https://github.com/biancapower/two-sided-marketplace-notes
-* https://www.figma.com/files/drafts => wireframes
-* https://www.draw.io/ => work flow
-    * Include a key
-* Trello - https://trello.com/b/FF5YqeHB/rails-assignment
