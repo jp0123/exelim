@@ -107,6 +107,29 @@ padding-bottom: 6px;
     font-size: 1.4rem;
 }
 
+.listings-seller-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.listings-seller-section img {
+    margin-left: 6px;
+    margin-top: 4px;
+    height: 1rem;
+    width: 1rem;
+}
+
+
+.listings-seller {
+    font-weight: 100;
+    margin-bottom: 0;
+}
+
+.listings-review {
+    font-weight: 100;
+    color: #6f9ceb;
+}
+
 .listings-price {
     font-size: 1.5rem;
     padding-top: 2rem;
@@ -114,6 +137,15 @@ padding-bottom: 6px;
     text-align: center;
 }
 
+.rating-bar {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rating-bar img {
+    width: 1rem;
+    height: 1rem;
+}
 
 /* Show page */
 
