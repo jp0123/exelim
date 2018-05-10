@@ -253,3 +253,8 @@ Future ideas:
 * Custom PC building service
 * Direct to consumer sale (both second hand parts and new)
 * Services related to IT (e.g. support)
+
+## Notes
+* This website cannot take payments
+* Reviews and ratings currently are just there for design purposes
+* Account dropdown menu is there for design purposes as well
