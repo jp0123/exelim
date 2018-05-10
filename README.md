@@ -180,11 +180,7 @@ This set of colours were chosen to convey a neutral, reliable, and quality messa
 
 <img src="readme_resources/style-guide-colours.png">
 
-The font family chosen were:
-* Headers - Roboto.
-* Normal text - Montserrat.
-
-These fonts were chosen to establish a clean and aesthetic view for users, which also had an element of technology.
+The font style was kept as <a href="https://getbootstrap.com/docs/4.0/content/reboot/">Bootstrap's defaut</a>. The reason being is that the fonts used are aesthetic, simple, and clean. These are attributes that Exelim wants to convey, so I decided to keep it. I may change it in the future.
 
 ## Wireframes
 Here are some low-medium wireframes created for important sections on the website. 

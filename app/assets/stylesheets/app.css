@@ -131,6 +131,8 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .vp-one-image {
@@ -138,6 +140,11 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+}
+
+.vp-one-image img {
+    width: 200px;
+    height: 200px;
 }
 
 .vp-two {
@@ -153,6 +160,11 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+}
+
+.vp-header-section img {
+    height: 50px;
+    width: 50px;
 }
 
 .vp-header {
