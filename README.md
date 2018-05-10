@@ -1,6 +1,6 @@
 # Rails Assignment | Two-sided Marketplace
 
-## Table of contents
+**Table of contents**
 * [Overview](#Overview)
     * [Setup](#Setup)
     * [Platforms](#Platforms)
