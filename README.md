@@ -16,6 +16,7 @@
 * [Updated wireframes](#UPDATED-wireframes)
 * [ERD](#ERD)
 * [For the future](#For-the-future)
+* [Notes](#Notes)
 
 
 
@@ -255,6 +256,34 @@ Future ideas:
 * Services related to IT (e.g. support)
 
 ## Notes
+### Website
 * This website cannot take payments
 * Reviews and ratings currently are just there for design purposes
 * Account dropdown menu is there for design purposes as well
+
+### Tools & Methodologies
+
+#### Trello
+Trello was used as my main project management tool. An example screenshot:
+
+<img src="readme_resources/trello.png">
+
+A labelling system was incorporated. For example,
+* Green=> All major work completed.
+* Yellow => A pending task that has a level of priority and difficulty
+* Red => Difficult and/or important task.
+* Purple => Gem.
+Green = completely done. Yellow = Pending, but not too difficult. Red = Difficult and/or important. Purple = Gem. No label = task.
+* No label => A task.
+
+#### Code Reviews
+Code reviews were both formally and informally conducted through this project.
+* Formally
+    * Project milestones and deadlines were reported and discussed with a Teaching Assistant(s). 
+    * If a significantly difficult problem was encountered, I would seek assistance from our Teaching Assistants and/or Head Instructor.
+* Informally
+    * If my peer(s) was stuck on an issue, I would offer assistance. This can be in the form of going through the process with them (if I know it well enough), while reviewing their code. For more difficult endeavours, we would go through the code and documentation together. Similarly, I would have received help if I required it. 
+        * E.g. Gems
+
+
+### 
