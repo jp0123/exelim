@@ -243,6 +243,17 @@ padding-bottom: 6px;
 /** - - - - - CATEGORIES - - - - - **/
 
 /* Categories */
+
+.category-section {
+    text-align: center;
+}
+
+.category-section-button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .category-show-section {
     border-bottom: 1px #ddd solid;
 }
@@ -255,6 +266,7 @@ padding-bottom: 6px;
 
 .category-button {
     margin-bottom: 3rem;
+    text-align: center;
 }
 
 /* Category */

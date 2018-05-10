@@ -7,12 +7,14 @@
     <% @categories.each do |category| %>
           <div class="col-md-4 col-sm-12 category-section">
               <img src="<%= category.image %>" alt="category image">
-            <p class="category-title"><%= category.title %></p>
-            <button type="button" class="btn btn-outline-primary category-button"><%= link_to 'See more', category %></button>
+              <p class="category-title"><%= category.title %></p>
+              <div class="category-section-button">
+                <button type="button" class="btn btn-outline-primary category-button"><%= link_to 'See more', category %></button>
+              </div>
+              
           </div>
     <% end %>
   </div>
-
 
   <table>
       <thead>
