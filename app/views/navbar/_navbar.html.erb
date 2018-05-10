@@ -17,6 +17,7 @@
       <li class="nav-item nav-link">
         <%= link_to 'Categories', categories_path %>
       </li>
+
       
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -26,20 +27,20 @@
           <a class="dropdown-item" href="dashboard">Dashboard</a>
           <a class="dropdown-item" href="profile">Profile</a>
           <a class="dropdown-item" href="messages">Messages</a>
-          <a class="dropdown-item" href="#">
 
-          <% if user_signed_in? %>
-            <li>
-            <%= link_to('Logout', destroy_user_session_path, method: :delete) %>        
-            </li>
-          <% else %>
-            <li>
-            <%= link_to('Login', new_user_session_path)  %>  
-            </li>
-          <% end %>
-          </a>
-          
         </div>
+      </li>
+
+      <li class="nav-item nav-link">
+        <% if user_signed_in? %>
+
+            <%= link_to('Logout', destroy_user_session_path, method: :delete) %>        
+
+          <% else %>
+
+            <%= link_to('Login', new_user_session_path)  %>  
+
+          <% end %>
       </li>
     </ul>
     
