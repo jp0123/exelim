@@ -183,17 +183,17 @@ padding-bottom: 6px;
 
 .seller-container {
     display: flex;
-    flex-wrap: wrap;
-    align-items: middle;
+    align-items: center;
     justify-content: center;
+    margin-bottom: 1.5rem;
+    border: 1px #ddd solid;
 }
 
 .seller-box {
-    padding: 2rem;
-    border: 1px #ddd solid;
     text-align: center;
-    margin-bottom: 1.5rem;
-    display: block;
+    padding: 2rem;
+    margin: 0.5rem;
+    width: 100%;
 }
 
 .seller-box button {

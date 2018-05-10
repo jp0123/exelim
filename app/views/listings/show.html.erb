@@ -34,35 +34,33 @@
 
         </div>
 
-        <div class="col-md-4 col-sm-12 seller-container">
+        <div class="col-md-3 col-sm-12 seller-container">
           <div class="seller-box">
             <p class="listing-price">AU $<%= @listing.price %></p>
             <button type="button" class="btn btn-outline-primary message-button">Message</button>
 
-  <%= form_tag charges_path do %>
-  <%= hidden_field_tag :listing_id, @listing.id %>
-    <article>
-      <% if flash[:error].present? %>
-        <div id="error_explanation">
-          <p><%= flash[:error] %></p>
-        </div>
-      <% end %>
-      
-    </article>
+          <%= form_tag charges_path do %>
+          <%= hidden_field_tag :listing_id, @listing.id %>
+            <article>
+              <% if flash[:error].present? %>
+                <div id="error_explanation">
+                  <p><%= flash[:error] %></p>
+                </div>
+              <% end %>
+              
+            </article>
 
-    <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-            data-key="<%= Rails.configuration.stripe[:publishable_key] %>"
-            data-description="<%= @listing.title %>"
-            data-amount="<%= @amount %>"
-            data-locale="auto"></script>
-  <% end %>
-
-
-
+            <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                    data-key="<%= Rails.configuration.stripe[:publishable_key] %>"
+                    data-description="<%= @listing.title %>"
+                    data-amount="<%= @amount %>"
+                    data-locale="auto"></script>
+          <% end %>
 
 
           </div>
         </div>
+
       </div>
 
       <div class="listing-details">
