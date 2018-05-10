@@ -1,49 +1,51 @@
-<p id="notice"><%= notice %></p>
+<div class="container">
+  <p id="notice"><%= notice %></p>
 
-<div class="row">
-  <div class="col-md-5 col-sm-12">
-    <div class="category-section-lhs">
-      <img src="<%= @category.image %>" alt="category image">
+  <div class="row category-show-section">
+    <div class="col-md-5 col-sm-12">
+      <div class="category-section-lhs">
+        <img src="<%= @category.image %>" alt="category image">
+      </div>
     </div>
-  </div>
 
-  <div class="col-md-7 col-sm-12">
-    <div class="category-section-rhs">
+    <div class="col-md-7 col-sm-12">
       <div class="category-section-rhs">
-        <div class="category-section-title">
-          <%= @category.title %>
-        </div>
-        <p class="category-section-description"> 
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
+        
+          <div class="category-section-title">
+            <%= @category.title %>
+          </div>
+          <p class="category-section-description"> 
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        
       </div>
     </div>
+
   </div>
 
-</div>
-
-<% @listings.each do |listing| %>
-    <% if((listing.category.downcase) === (@category.title.downcase)) then %>
-      <div class="listings-section">
-      <div class="row justify-content-center">
-        <div class="col-md-3 col-sm-12">
-          <div class="listing-image-section">
-            <img src="<%= listing.image %>" alt="listing image">
+  <% @listings.each do |listing| %>
+      <% if((listing.category.downcase) === (@category.title.downcase)) then %>
+        <div class="listings-section">
+        <div class="row justify-content-center">
+          <div class="col-md-3 col-sm-12">
+            <div class="listing-image-section">
+              <img src="<%= listing.image %>" alt="listing image">
+            </div>
           </div>
-        </div>
 
-        <div class="col-md-4 col-sm-12">
-          <p class="listings-title"><%= listing.title %></p>
-          <p class="listings-category"><%= listing.category %></p>
-        </div>
+          <div class="col-md-4 col-sm-12">
+            <p class="listings-title"><%= listing.title %></p>
+            <p class="listings-category"><%= listing.category %></p>
+          </div>
 
-        <div class="col-md-3 col-sm-12">
-          <div class="listing-box">
-            <p class="listings-price">AU $<%= listing.price %></p>
-            <button type="button" class="btn btn-outline-primary"><%= link_to 'Details', listing %></button>
+          <div class="col-md-3 col-sm-12">
+            <div class="listing-box">
+              <p class="listings-price">AU $<%= listing.price %></p>
+              <button type="button" class="btn btn-outline-primary"><%= link_to 'Details', listing %></button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <% end %>
-<% end %>
+      <% end %>
+  <% end %>
+</div>

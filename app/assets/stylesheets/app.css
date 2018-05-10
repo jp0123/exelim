@@ -69,12 +69,13 @@
     font-weight: 500;
 }
 
-/** - - - - - SECTION 3: LISTINGS - - - - - **/
+/** - - - - - SECTION 3: HOW IT WORKS - - - - - **/
 .how-it-works {
     text-align: center;
     padding-top: 7.5vh;
     padding-bottom: 7.5vh;
-    background: lightcoral;
+    background:#354EAA;
+    color: #fff;
 }
 
 .how-it-works-title {
@@ -131,7 +132,7 @@
 /** - - - - - SECTION 5: VALUE PROPOSITION - - - - - **/
 
 .vp {
-    background: #6f9ceb;
+    background: whitesmoke;
     padding-top: 7.5vh;
     padding-bottom: 7.5vh;
 

@@ -1,40 +1,43 @@
-<p id="notice"><%= notice %></p>
+<div class="container">
+  <p id="notice"><%= notice %></p>
 
-<h1>Categories</h1>
+  <h1>Categories</h1>
 
-<div class="row">
-  <% @categories.each do |category| %>
-        <div class="col-md-4 col-sm-12 category-section">
-            <img src="<%= category.image %>" alt="category image">
-          <p class="category-title"><%= category.title %></p>
-          <button type="button" class="btn btn-outline-primary category-button"><%= link_to 'See more', category %></button>
-        </div>
-  <% end %>
-</div>
+  <div class="row">
+    <% @categories.each do |category| %>
+          <div class="col-md-4 col-sm-12 category-section">
+              <img src="<%= category.image %>" alt="category image">
+            <p class="category-title"><%= category.title %></p>
+            <button type="button" class="btn btn-outline-primary category-button"><%= link_to 'See more', category %></button>
+          </div>
+    <% end %>
+  </div>
 
 
-<table>
-    <thead>
-      <tr>
-        <th class="test">Category</th>
-        <th>Title</th>
-        <th>Image</th>
-        <th colspan="3"></th>
-      </tr>
-    </thead>
-
-    <tbody>
-      <% @categories.each do |category| %>
+  <table>
+      <thead>
         <tr>
-          <td><%= category.title %></td>
-          <td><%= category.image %></td>
-
-          <td><%= link_to 'Show', category %></td>
-          <td><%= link_to 'Edit', edit_category_path(category) %></td>
-          <td><%= link_to 'Destroy', category, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+          <th class="test">Category</th>
+          <th>Title</th>
+          <th>Image</th>
+          <th colspan="3"></th>
         </tr>
-      <% end %>
-    </tbody>
-  </table>
+      </thead>
 
-  <%= link_to 'New Category', new_category_path %>
+      <tbody>
+        <% @categories.each do |category| %>
+          <tr>
+            <td><%= category.title %></td>
+            <td><%= category.image %></td>
+
+            <td><%= link_to 'Show', category %></td>
+            <td><%= link_to 'Edit', edit_category_path(category) %></td>
+            <td><%= link_to 'Destroy', category, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+
+    <%= link_to 'New Category', new_category_path %>
+
+</div>
